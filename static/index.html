@@ -442,6 +442,30 @@
             color: #15803d;
         }
 
+        .score-warning {
+            background: #fef3c7;
+            color: #d97706;
+            font-size: 0.7rem;
+            padding: 3px 6px;
+            border-radius: 4px;
+            margin-left: 6px;
+            font-weight: 600;
+        }
+
+        .recommendation-card.low-score {
+            border: 2px solid #fbbf24;
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+        }
+
+        .card-reason-text p {
+            margin: 0 0 12px 0;
+            line-height: 1.7;
+        }
+
+        .card-reason-text p:last-child {
+            margin-bottom: 0;
+        }
+
         .card-stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -536,6 +560,17 @@
             color: #64748b;
         }
 
+        .brand-analysis-text {
+            margin-top: 12px;
+            padding: 12px;
+            background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+            font-size: 0.9rem;
+            color: #374151;
+            line-height: 1.7;
+        }
+
         /* 추천 인원 설정 */
         .count-inputs {
             display: flex;
@@ -623,7 +658,7 @@
             <!-- 입력 패널 -->
             <div class="input-panel">
                 <div class="panel-title">
-                    <i class="fas fa-sliders-h"></i> 캠페인 설정
+                    <i class="fas fa-sliders-h"></i> 브랜드 및 제품 설정
                 </div>
 
                 <!-- 브랜드 선택 -->
@@ -683,7 +718,7 @@
 
                 <!-- 제품 설명 -->
                 <div class="form-group">
-                    <label>4. 캠페인 설명 (선택)</label>
+                    <label>4. 제품 설명 및 홍보 내용 (선택)</label>
                     <textarea
                         class="text-input"
                         id="productDescription"
@@ -955,6 +990,7 @@
                             <span class="brand-tag">스타일: ${data.brand_info.aesthetic_style || 'Trendy'}</span>
                             <span class="brand-tag">타겟: ${data.brand_info.target_audience || '일반'}</span>
                         </div>
+                        ${data.brand_analysis ? `<div class="brand-analysis-text">${data.brand_analysis}</div>` : ''}
                     </div>
                 `;
             }
@@ -965,9 +1001,14 @@
                 const rankClass = index === 0 ? 'gold' : (index === 1 ? 'silver' : (index === 2 ? 'bronze' : ''));
                 const typeClass = rec.type === 'Expert' ? 'type-expert' : 'type-trendsetter';
                 const typeLabel = rec.type === 'Expert' ? '전문가' : '트렌드세터';
+                const needsWarning = rec.match_score < 70;
+                const warningBadge = needsWarning ? '<span class="score-warning">확인 요망</span>' : '';
+
+                // 추천 사유 줄바꿈 처리
+                const formattedReason = rec.reason.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>');
 
                 html += `
-                    <div class="recommendation-card">
+                    <div class="recommendation-card ${needsWarning ? 'low-score' : ''}">
                         <div class="card-header">
                             <div style="display: flex; align-items: center; gap: 12px;">
                                 <div class="card-rank ${rankClass}">${rec.rank}</div>
@@ -988,14 +1029,14 @@
                                 <div class="stat-label">인플루언서 타입</div>
                             </div>
                             <div class="stat-item">
-                                <div class="stat-value">${rec.match_score.toFixed(1)}%</div>
+                                <div class="stat-value">${rec.match_score.toFixed(1)}% ${warningBadge}</div>
                                 <div class="stat-label">적합도</div>
                             </div>
                         </div>
 
                         <div class="card-reason">
                             <div class="card-reason-title">추천 사유</div>
-                            <div class="card-reason-text">${rec.reason}</div>
+                            <div class="card-reason-text"><p>${formattedReason}</p></div>
                         </div>
                     </div>
                 `;

@@ -1,0 +1,324 @@
+{
+  "product_taxonomy": {
+    "헤어케어": {
+      "샴푸": {
+        "subcategories": {
+          "일반 샴푸": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Trendsetter",
+            "description": "일상적인 세정과 향, 사용감 중심",
+            "keywords": ["데일리", "매일", "부드러운", "향기"]
+          },
+          "기능성 샴푸": {
+            "marketing_approach": "expert_oriented",
+            "influencer_type": "Both",
+            "description": "탈모방지, 비듬케어, 손상모 등 특정 효능 강조",
+            "keywords": ["탈모", "비듬", "손상모", "지성", "건성", "민감성"],
+            "expertise_signals": ["임상", "테스트", "특허", "성분", "효능", "FDA", "식약처"]
+          },
+          "두피케어 샴푸": {
+            "marketing_approach": "expert_oriented",
+            "influencer_type": "Expert",
+            "description": "두피 건강, 스킨케어 개념의 전문적 접근",
+            "keywords": ["두피", "스캘프", "피부과학", "pH", "마이크로바이옴"],
+            "expertise_signals": ["두피과학", "피부연구", "임상", "더마"]
+          },
+          "살롱전용 샴푸": {
+            "marketing_approach": "professional",
+            "influencer_type": "Expert",
+            "description": "미용실에서 전문가가 사용하는 제품",
+            "keywords": ["살롱", "프로페셔널", "시술용", "대용량"],
+            "requires_certification": true
+          }
+        }
+      },
+      "트리트먼트/컨디셔너": {
+        "subcategories": {
+          "일반 트리트먼트": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Trendsetter",
+            "description": "일상 케어, 부드러운 모발 유지",
+            "keywords": ["부드러운", "윤기", "촉촉", "매끄러운"]
+          },
+          "집중 케어 트리트먼트": {
+            "marketing_approach": "expert_oriented",
+            "influencer_type": "Both",
+            "description": "손상모 집중 복구, 단백질 케어",
+            "keywords": ["손상모", "복구", "단백질", "케라틴", "본드"],
+            "expertise_signals": ["모발과학", "구조", "복원", "특허성분"]
+          },
+          "살롱 클리닉": {
+            "marketing_approach": "professional",
+            "influencer_type": "Expert",
+            "description": "살롱에서 시술하는 전문 트리트먼트",
+            "keywords": ["클리닉", "시술", "살롱케어", "프로페셔널"],
+            "requires_certification": true
+          }
+        }
+      },
+      "에센스/오일/세럼": {
+        "subcategories": {
+          "스타일링 에센스": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Trendsetter",
+            "description": "일상 스타일링과 모발 보호",
+            "keywords": ["에센스", "오일", "윤기", "열보호"]
+          },
+          "두피 세럼/앰플": {
+            "marketing_approach": "expert_oriented",
+            "influencer_type": "Expert",
+            "description": "두피 집중 케어, 탈모 예방",
+            "keywords": ["세럼", "앰플", "두피", "탈모방지", "모근"],
+            "expertise_signals": ["임상결과", "효능", "특허", "성장인자"]
+          }
+        }
+      },
+      "스타일링": {
+        "subcategories": {
+          "일반 스타일링": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Trendsetter",
+            "description": "왁스, 스프레이, 무스 등 일상 스타일링",
+            "keywords": ["왁스", "스프레이", "무스", "젤", "홀드"]
+          },
+          "프로페셔널 스타일링": {
+            "marketing_approach": "professional",
+            "influencer_type": "Expert",
+            "description": "살롱에서 사용하는 전문 스타일링 제품",
+            "keywords": ["프로", "살롱", "디자이너", "헤어쇼"],
+            "requires_certification": true
+          }
+        }
+      }
+    },
+    "시술제품": {
+      "염색": {
+        "subcategories": {
+          "셀프 염색약": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Trendsetter",
+            "description": "집에서 쉽게 사용하는 염색 제품",
+            "keywords": ["셀프", "거품", "쉬운", "홈케어", "새치"]
+          },
+          "전문 염색약": {
+            "marketing_approach": "professional",
+            "influencer_type": "Expert",
+            "description": "미용실에서 전문가가 시술하는 염색약",
+            "keywords": ["프로페셔널", "살롱", "레벨", "조색", "발레아쥬"],
+            "requires_certification": true,
+            "expertise_signals": ["색상조합", "테크닉", "시술과정", "조색비"]
+          },
+          "탈색제/블리치": {
+            "marketing_approach": "professional",
+            "influencer_type": "Expert",
+            "description": "전문가 시술 필요한 탈색 제품",
+            "keywords": ["탈색", "블리치", "리프트", "하이톤"],
+            "requires_certification": true,
+            "high_risk": true
+          }
+        }
+      },
+      "펌": {
+        "subcategories": {
+          "셀프 펌": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Both",
+            "description": "홈케어용 간편 펌 제품",
+            "keywords": ["셀프펌", "홈펌", "쉬운", "간편"]
+          },
+          "전문 펌제": {
+            "marketing_approach": "professional",
+            "influencer_type": "Expert",
+            "description": "살롱에서 사용하는 전문 펌 약제",
+            "keywords": ["펌제", "웨이브", "시스틴", "디지털펌", "세팅"],
+            "requires_certification": true,
+            "expertise_signals": ["시술기법", "롯드", "타임", "모질진단"]
+          }
+        }
+      }
+    },
+    "라이프스타일": {
+      "향수/디퓨저": {
+        "subcategories": {
+          "헤어 퍼퓸": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Trendsetter",
+            "description": "헤어 향수, 미스트",
+            "keywords": ["향수", "미스트", "향기", "프래그런스"]
+          },
+          "홈 프래그런스": {
+            "marketing_approach": "consumer",
+            "influencer_type": "Trendsetter",
+            "description": "디퓨저, 캔들 등 공간 향기",
+            "keywords": ["디퓨저", "캔들", "홈", "라이프스타일"]
+          }
+        }
+      }
+    }
+  },
+
+  "marketing_approach_guide": {
+    "professional": {
+      "name": "전문가용 제품",
+      "description": "살롱/미용실에서 전문 자격을 가진 미용사가 사용하는 제품",
+      "characteristics": [
+        "시술 과정에서 사용",
+        "전문 자격 또는 교육 필요",
+        "일반 유통 채널에서 판매하지 않음",
+        "대용량/살롱 전용 패키지"
+      ],
+      "ideal_influencer": {
+        "type": "Expert",
+        "requirements": [
+          "미용사 자격증 보유",
+          "살롱 운영 또는 근무 경력",
+          "시술 과정 콘텐츠 제작 가능"
+        ],
+        "content_focus": [
+          "시술 과정 시연",
+          "전문 테크닉 설명",
+          "비포/애프터 결과",
+          "제품 사용법 교육"
+        ]
+      },
+      "weight_in_matching": 0.9
+    },
+    "expert_oriented": {
+      "name": "전문성 지향 홍보",
+      "description": "일반 소비자가 구매하지만 성분, 효능, 과학적 근거를 강조하여 마케팅하는 제품",
+      "characteristics": [
+        "성분과 효능 중심 마케팅",
+        "임상 테스트 결과 강조",
+        "전문가 추천/개발 스토리",
+        "교육적 콘텐츠 필요"
+      ],
+      "ideal_influencer": {
+        "type": "Both",
+        "requirements": [
+          "전문 지식 설명 능력",
+          "신뢰성 있는 이미지",
+          "성분 분석 콘텐츠 경험"
+        ],
+        "content_focus": [
+          "성분 분석 및 설명",
+          "사용 전후 비교",
+          "효능에 대한 상세 리뷰",
+          "전문가 인터뷰/협업"
+        ]
+      },
+      "weight_in_matching": 0.7
+    },
+    "consumer": {
+      "name": "일반 소비자용",
+      "description": "대중적으로 마케팅하는 제품, 감성과 트렌드 중심",
+      "characteristics": [
+        "감성적/라이프스타일 마케팅",
+        "사용감, 향, 패키지 강조",
+        "트렌드와 스타일 연결",
+        "일상 콘텐츠에 자연스럽게 노출"
+      ],
+      "ideal_influencer": {
+        "type": "Trendsetter",
+        "requirements": [
+          "트렌디한 콘텐츠 스타일",
+          "MZ세대 팔로워층",
+          "라이프스타일 콘텐츠"
+        ],
+        "content_focus": [
+          "일상 속 자연스러운 노출",
+          "GRWM/루틴 콘텐츠",
+          "스타일링 팁",
+          "감성적 브이로그"
+        ]
+      },
+      "weight_in_matching": 0.5
+    }
+  },
+
+  "expertise_detection": {
+    "product_expertise_keywords": {
+      "high_expertise": [
+        "임상시험", "특허성분", "FDA승인", "식약처", "피부과전문의",
+        "모발과학", "두피연구소", "성장인자", "펩타이드", "줄기세포",
+        "마이크로바이옴", "pH밸런스", "더마테스트", "피부자극테스트"
+      ],
+      "medium_expertise": [
+        "탈모방지", "비듬케어", "손상모복구", "두피케어", "기능성",
+        "효능", "성분", "약산성", "무실리콘", "자연유래"
+      ],
+      "low_expertise": [
+        "부드러운", "촉촉한", "향기로운", "데일리", "간편한",
+        "트렌디", "감성", "라이프스타일"
+      ]
+    },
+    "brand_expertise_signals": {
+      "려": {
+        "expertise_level": "medium_high",
+        "focus": "한방/탈모 과학",
+        "key_claims": ["모근케어", "아시안헤리티지", "탈모방지"]
+      },
+      "라보에이치": {
+        "expertise_level": "high",
+        "focus": "두피 스킨케어 과학",
+        "key_claims": ["두피=피부", "피부과학", "마이크로바이옴"]
+      },
+      "미쟝센": {
+        "expertise_level": "low",
+        "focus": "트렌드/스타일",
+        "key_claims": ["트렌디", "스타일링", "개성표현"]
+      },
+      "아윤채": {
+        "expertise_level": "high",
+        "focus": "살롱 전문가",
+        "key_claims": ["디자이너전용", "프로페셔널", "살롱품질"]
+      },
+      "아모스 프로페셔널": {
+        "expertise_level": "high",
+        "focus": "살롱 전문가",
+        "key_claims": ["전문살롱", "트러스트", "검증된솔루션"]
+      },
+      "롱테이크": {
+        "expertise_level": "low",
+        "focus": "라이프스타일/감성",
+        "key_claims": ["지속가능", "자연영감", "감성향"]
+      }
+    }
+  },
+
+  "matching_score_weights": {
+    "professional_product": {
+      "expert_influencer": {
+        "base_multiplier": 1.0,
+        "certification_bonus": 0.2,
+        "tutorial_content_bonus": 0.15,
+        "salon_experience_bonus": 0.1
+      },
+      "trendsetter_influencer": {
+        "base_multiplier": 0.4,
+        "penalty_reason": "전문 시술 콘텐츠 제작 어려움"
+      }
+    },
+    "expert_oriented_product": {
+      "expert_influencer": {
+        "base_multiplier": 0.85,
+        "knowledge_bonus": 0.15
+      },
+      "trendsetter_influencer": {
+        "base_multiplier": 0.7,
+        "education_content_bonus": 0.1,
+        "trust_score_bonus": 0.1
+      }
+    },
+    "consumer_product": {
+      "expert_influencer": {
+        "base_multiplier": 0.65,
+        "credibility_bonus": 0.1
+      },
+      "trendsetter_influencer": {
+        "base_multiplier": 1.0,
+        "trend_relevance_bonus": 0.15,
+        "lifestyle_fit_bonus": 0.1
+      }
+    }
+  }
+}

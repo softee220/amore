@@ -4,100 +4,412 @@
       "brand_name": "려",
       "brand_name_en": "Ryo",
       "slogan": "뿌리로부터 자라는 본연의 아름다움",
-      "tagline": "Natural beauty from the roots",
-      "core_values": ["한방", "두피케어", "탈모케어", "프리미엄", "아시안헤리티지"],
-      "brand_philosophy": "깊은 뿌리를 가진 나무처럼 안정적인 두피 케어. 1973년부터 축적된 두피 연구 기술과 아시안 헤리티지 기반의 천연 원료 활용",
-      "target_keywords": ["탈모", "두피", "한방", "볼륨", "안티에이징", "자양윤모", "루트젠"],
-      "aesthetic_style": "Classic",
-      "product_categories": ["샴푸", "컨디셔너", "트리트먼트", "두피케어", "탈모케어"],
-      "product_lines": ["자양윤모", "루트젠", "청아"],
+      "tagline": "모근 케어로 건강한 모발",
+      "core_values": [
+        "자연주의",
+        "기능성",
+        "전통",
+        "아시아 유산",
+        "고객 맞춤",
+        "지속 가능성"
+      ],
+      "brand_philosophy": "려는 두피 깊은 곳의 근본 모근 케어를 통해 풍성하고 건강한 모발의 아름다움을 추구합니다. 아시안헤리티지 원료를 기반으로 고객들의 탈모 고민에 대한 맞춤 솔루션을 제공합니다.",
+      "target_keywords": [
+        "탈모 케어",
+        "모발 건강",
+        "아시아 원료",
+        "프리미엄 제품",
+        "고기능",
+        "맞춤 솔루션"
+      ],
+      "aesthetic_style": "Natural",
       "price_tier": "Premium",
-      "age_target": "30-50대",
+      "age_target": "20대 후반 ~ 50대",
       "category": "Hair Care",
-      "launch_year": 2008
+      "detail_url": "https://www.apgroup.com/int/ko/brands/ryo.html",
+      "expertise_level": "medium_high",
+      "expertise_focus": "한방 과학 기반 탈모/두피 케어",
+      "product_lines": {
+        "자양윤모": {
+          "category": "헤어케어/샴푸/기능성 샴푸",
+          "marketing_approach": "expert_oriented",
+          "description": "탈모 증상 완화 기능성 샴푸",
+          "key_claims": ["탈모방지", "모근강화", "임상테스트"],
+          "ideal_influencer": "Both",
+          "expertise_keywords": ["탈모방지", "식약처인증", "기능성화장품"]
+        },
+        "청아": {
+          "category": "헤어케어/샴푸/기능성 샴푸",
+          "marketing_approach": "expert_oriented",
+          "description": "두피 진정 및 비듬 케어",
+          "key_claims": ["두피진정", "비듬케어", "가려움완화"],
+          "ideal_influencer": "Both",
+          "expertise_keywords": ["두피건강", "지루성두피"]
+        },
+        "흑운": {
+          "category": "헤어케어/샴푸/일반 샴푸",
+          "marketing_approach": "consumer",
+          "description": "새치 커버 및 모발 영양",
+          "key_claims": ["새치케어", "윤기", "볼륨"],
+          "ideal_influencer": "Trendsetter"
+        },
+        "두피 세럼": {
+          "category": "헤어케어/에센스/두피 세럼",
+          "marketing_approach": "expert_oriented",
+          "description": "집중 두피 케어 앰플",
+          "key_claims": ["모근강화", "탈모예방", "집중케어"],
+          "ideal_influencer": "Expert",
+          "expertise_keywords": ["앰플", "세럼", "집중케어"]
+        }
+      }
     },
     "미쟝센": {
       "brand_name": "미쟝센",
-      "brand_name_en": "Mise-en-scene",
-      "slogan": "Shine Your Scene - 자신만의 무대에서 당당히 빛나다",
-      "tagline": "SHINE YOUR SCENE",
-      "core_values": ["트렌디", "자기표현", "스타일링", "혁신", "개성", "대담한변화"],
-      "brand_philosophy": "글로벌 헤어패션 브랜드로서 혁신적인 솔루션과 트렌디한 감각으로 빛나는 스타일 완성. 무대 위의 아티스트처럼 자신감 있고 당당한 이미지",
-      "target_keywords": ["스타일링", "염색", "펌", "데미지케어", "트렌드", "헤어패션"],
+      "brand_name_en": "Mise-en-Scène",
+      "slogan": "SHINE YOUR SCENE",
+      "tagline": "자신만의 스타일을 완성하다",
+      "core_values": [
+        "혁신",
+        "자유로운 자기표현",
+        "트렌디함",
+        "자신감",
+        "대담함",
+        "스타일리시함"
+      ],
+      "brand_philosophy": "미쟝센은 대한민국 No.1 헤어 브랜드로, 누구나 자신만의 무대에서 빛날 수 있도록 돕습니다. 혁신적인 솔루션과 트렌디한 감각으로 개성 있는 스타일을 완성합니다.",
+      "target_keywords": [
+        "헤어",
+        "패션",
+        "자기표현",
+        "스타일",
+        "트렌드",
+        "아티스트"
+      ],
       "aesthetic_style": "Trendy",
-      "product_categories": ["샴푸", "트리트먼트", "염색", "스타일링", "에센스"],
-      "product_lines": ["퍼펙트세럼", "헬로버블", "샤이닝케어"],
-      "price_tier": "Mass",
-      "age_target": "20-30대",
+      "price_tier": "Mid-range",
+      "age_target": "20대 후반 ~ 30대 초반",
       "category": "Hair Care",
-      "market_position": "대한민국 No.1 헤어 브랜드"
+      "detail_url": "https://www.apgroup.com/int/ko/brands/mise-en-scene.html",
+      "expertise_level": "low",
+      "expertise_focus": "트렌드와 스타일 중심의 감성 마케팅",
+      "product_lines": {
+        "퍼펙트 세럼": {
+          "category": "헤어케어/에센스/스타일링 에센스",
+          "marketing_approach": "consumer",
+          "description": "7가지 오일 에센스로 윤기나는 모발",
+          "key_claims": ["윤기", "부드러움", "향기"],
+          "ideal_influencer": "Trendsetter"
+        },
+        "헬로버블": {
+          "category": "시술제품/염색/셀프 염색약",
+          "marketing_approach": "consumer",
+          "description": "거품 타입 셀프 염색",
+          "key_claims": ["간편", "트렌디컬러", "셀프"],
+          "ideal_influencer": "Trendsetter"
+        },
+        "샤이닝 에센스": {
+          "category": "헤어케어/에센스/스타일링 에센스",
+          "marketing_approach": "consumer",
+          "description": "열 손상 보호 스타일링 에센스",
+          "key_claims": ["열보호", "스타일링", "윤기"],
+          "ideal_influencer": "Trendsetter"
+        },
+        "스타일링": {
+          "category": "헤어케어/스타일링/일반 스타일링",
+          "marketing_approach": "consumer",
+          "description": "왁스, 스프레이 등 스타일링 제품군",
+          "key_claims": ["홀드력", "자연스러움", "트렌디"],
+          "ideal_influencer": "Trendsetter"
+        },
+        "손상모 샴푸": {
+          "category": "헤어케어/샴푸/일반 샴푸",
+          "marketing_approach": "consumer",
+          "description": "손상모 케어 샴푸",
+          "key_claims": ["복구", "영양", "부드러움"],
+          "ideal_influencer": "Trendsetter"
+        }
+      }
     },
     "라보에이치": {
       "brand_name": "라보에이치",
-      "brand_name_en": "Labo-H",
-      "slogan": "두피 스킨케어 전문가",
-      "tagline": "Scalp skincare specialist",
-      "core_values": ["과학", "더마", "두피건강", "피부장벽", "전문성"],
-      "brand_philosophy": "두피는 특별한 피부라는 관점에서 출발. 아모레퍼시픽의 피부 과학 노하우를 바탕으로 두피 장벽 강화를 통해 본래 건강 회복",
-      "target_keywords": ["두피", "탈모", "과학", "더마", "민감성", "두피장벽", "스킨케어"],
-      "aesthetic_style": "Minimal",
-      "product_categories": ["샴푸", "두피케어", "탈모케어", "스케일러"],
+      "brand_name_en": "Laboh",
+      "slogan": "두피 스킨케어의 새로운 기준, 라보에이치",
+      "tagline": "두피는 특별한 피부",
+      "core_values": [
+        "전문성",
+        "혁신",
+        "자연주의",
+        "효과성",
+        "신뢰성",
+        "지속 가능성"
+      ],
+      "brand_philosophy": "라보에이치는 두피를 특별한 피부로 여기는 관점에서 시작되었습니다. 두피 건강을 회복하고 문제를 근본적으로 해결하는 솔루션을 제공합니다.",
+      "target_keywords": [
+        "두피 스킨케어",
+        "탈모 예방",
+        "비듬 제거",
+        "두피 건강",
+        "헤어 케어",
+        "피부 과학"
+      ],
+      "aesthetic_style": "Natural",
       "price_tier": "Premium",
-      "age_target": "25-45대",
-      "category": "Hair Care"
-    },
-    "아모스프로페셔널": {
-      "brand_name": "아모스프로페셔널",
-      "brand_name_en": "Amos Professional",
-      "slogan": "Trendy & Trustworthy Professional Hair Beauty",
-      "tagline": "Trendy & Trustworthy Professional Hair",
-      "core_values": ["전문성", "살롱", "프로페셔널", "신뢰성", "기술력", "트렌디"],
-      "brand_philosophy": "검증된 두피와 모발 솔루션으로 자신감 있는 헤어 뷰티를 완성. 신뢰할 수 있는 성분과 기술을 바탕으로 전문적인 스타일링 제공",
-      "target_keywords": ["살롱", "전문가", "시술", "염색", "펌", "프로페셔널"],
-      "aesthetic_style": "Classic",
-      "product_categories": ["염색약", "펌제", "트리트먼트", "스타일링"],
-      "price_tier": "Professional",
-      "age_target": "미용전문가",
-      "category": "Hair Care"
+      "age_target": "20대 후반 ~ 50대",
+      "category": "Hair Care",
+      "detail_url": "https://www.apgroup.com/int/ko/brands/laboh.html",
+      "expertise_level": "high",
+      "expertise_focus": "피부과학 기반 두피 스킨케어",
+      "product_lines": {
+        "탈모증상케어": {
+          "category": "헤어케어/샴푸/두피케어 샴푸",
+          "marketing_approach": "expert_oriented",
+          "description": "탈모 증상 완화 두피 스킨케어",
+          "key_claims": ["탈모케어", "두피=피부", "피부과학"],
+          "ideal_influencer": "Expert",
+          "expertise_keywords": ["임상", "두피과학", "모근케어", "더마"]
+        },
+        "두피강화케어": {
+          "category": "헤어케어/샴푸/두피케어 샴푸",
+          "marketing_approach": "expert_oriented",
+          "description": "약해진 두피 강화 케어",
+          "key_claims": ["두피강화", "장벽케어", "진정"],
+          "ideal_influencer": "Expert",
+          "expertise_keywords": ["피부장벽", "민감두피", "스킨케어"]
+        },
+        "지성두피케어": {
+          "category": "헤어케어/샴푸/두피케어 샴푸",
+          "marketing_approach": "expert_oriented",
+          "description": "유분 조절 지성 두피 전용",
+          "key_claims": ["피지조절", "청량감", "두피밸런스"],
+          "ideal_influencer": "Both",
+          "expertise_keywords": ["피지", "지루성", "클렌징"]
+        },
+        "스캘프 세럼": {
+          "category": "헤어케어/에센스/두피 세럼",
+          "marketing_approach": "expert_oriented",
+          "description": "두피 집중 케어 세럼",
+          "key_claims": ["집중케어", "영양공급", "두피개선"],
+          "ideal_influencer": "Expert",
+          "expertise_keywords": ["세럼", "앰플", "더마"]
+        }
+      }
     },
     "아윤채": {
       "brand_name": "아윤채",
       "brand_name_en": "Ayunche",
-      "slogan": "Detailed & High Performing Salon Care",
-      "tagline": "Detailed & High Performing Salon Care",
-      "core_values": ["프리미엄", "전문성", "환경공존", "본질", "기능성"],
-      "brand_philosophy": "환경과 공존하며 나아가는 철학. 본질에 충실한 기능들을 담백하게 담아내며 디자이너의 불편함과 현실적 헤어 고민 해결",
-      "target_keywords": ["살롱", "프리미엄", "안티에이징", "윤기", "프로페셔널"],
-      "aesthetic_style": "Luxury",
-      "product_categories": ["샴푸", "트리트먼트", "에센스", "두피케어"],
-      "product_lines": ["PRO 라인 (살롱 전문가용)", "TAKE HOME 라인 (일반 소비자용)"],
-      "price_tier": "Luxury",
-      "age_target": "35-55대",
-      "category": "Hair Care"
+      "slogan": "본질에 충실한 헤어 솔루션",
+      "tagline": "디자이너와 고객을 위한 전문 헤어 케어",
+      "core_values": [
+        "디자이너 중심",
+        "고객 만족",
+        "환경 친화",
+        "기능성",
+        "연구 개발",
+        "심미성"
+      ],
+      "brand_philosophy": "아윤채는 디자이너와 고객의 불편을 해결하기 위해 연구하며, 본질에 충실한 제품을 제공합니다. 환경과 공존하는 철학을 바탕으로 전문적인 헤어 솔루션을 구현합니다.",
+      "target_keywords": [
+        "헤어 케어",
+        "전문가 제품",
+        "디자이너 솔루션",
+        "고객 중심",
+        "환경 친화",
+        "기능성 제품"
+      ],
+      "aesthetic_style": "Natural",
+      "price_tier": "Professional",
+      "age_target": "20대 후반 ~ 40대",
+      "category": "Hair Care",
+      "detail_url": "https://www.apgroup.com/int/ko/brands/ayunche.html",
+      "expertise_level": "high",
+      "expertise_focus": "살롱 전문가용 프로페셔널 제품",
+      "product_lines": {
+        "PRO 샴푸": {
+          "category": "헤어케어/샴푸/살롱전용 샴푸",
+          "marketing_approach": "professional",
+          "description": "살롱 전용 프로페셔널 샴푸",
+          "key_claims": ["살롱품질", "대용량", "전문가용"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true,
+          "expertise_keywords": ["프로", "살롱", "디자이너"]
+        },
+        "PRO 트리트먼트": {
+          "category": "헤어케어/트리트먼트/살롱 클리닉",
+          "marketing_approach": "professional",
+          "description": "살롱 시술용 집중 트리트먼트",
+          "key_claims": ["살롱케어", "집중복구", "프로페셔널"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true,
+          "expertise_keywords": ["클리닉", "시술", "복구"]
+        },
+        "TAKE HOME 라인": {
+          "category": "헤어케어/샴푸/기능성 샴푸",
+          "marketing_approach": "expert_oriented",
+          "description": "살롱 케어를 집에서도 유지하는 홈케어 라인",
+          "key_claims": ["살롱품질", "홈케어", "전문가추천"],
+          "ideal_influencer": "Both",
+          "expertise_keywords": ["홈케어", "살롱추천", "디자이너픽"]
+        },
+        "펌제": {
+          "category": "시술제품/펌/전문 펌제",
+          "marketing_approach": "professional",
+          "description": "살롱 전용 펌 시술 약제",
+          "key_claims": ["저자극", "고정력", "전문시술"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true,
+          "expertise_keywords": ["펌제", "시술", "웨이브"]
+        },
+        "염색약": {
+          "category": "시술제품/염색/전문 염색약",
+          "marketing_approach": "professional",
+          "description": "살롱 전용 프로페셔널 염색약",
+          "key_claims": ["발색력", "지속력", "두피보호"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true,
+          "expertise_keywords": ["컬러리스트", "조색", "염색시술"]
+        }
+      }
+    },
+    "아모스 프로페셔널": {
+      "brand_name": "아모스 프로페셔널",
+      "brand_name_en": "Amos Professional",
+      "slogan": "Trendy & Trust Worthy Professional Hair Beauty",
+      "tagline": "신뢰할 수 있는 헤어 솔루션",
+      "core_values": [
+        "신뢰성",
+        "전문성",
+        "트렌디함",
+        "고객 중심",
+        "혁신",
+        "품질"
+      ],
+      "brand_philosophy": "아모스 프로페셔널은 믿을 수 있는 성분과 기술로 고객에게 자신감 있는 헤어 뷰티를 제공합니다. 검증된 두피와 모발 솔루션을 통해 전문 살롱 브랜드로서의 가치를 실현합니다.",
+      "target_keywords": [
+        "헤어 뷰티",
+        "전문 살롱",
+        "트렌디 스타일",
+        "두피 솔루션",
+        "모발 관리",
+        "신뢰할 수 있는 제품"
+      ],
+      "aesthetic_style": "Trendy",
+      "price_tier": "Professional",
+      "age_target": "20대 후반 ~ 40대",
+      "category": "Hair Care",
+      "detail_url": "https://www.apgroup.com/int/ko/brands/amos-professional.html",
+      "expertise_level": "high",
+      "expertise_focus": "살롱 전문가 신뢰 기반 프로페셔널 브랜드",
+      "product_lines": {
+        "그린티 샴푸": {
+          "category": "헤어케어/샴푸/살롱전용 샴푸",
+          "marketing_approach": "professional",
+          "description": "살롱 전용 녹차 추출물 샴푸",
+          "key_claims": ["두피진정", "살롱품질", "전문가용"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true
+        },
+        "커리큘럼": {
+          "category": "헤어케어/트리트먼트/살롱 클리닉",
+          "marketing_approach": "professional",
+          "description": "단계별 집중 케어 클리닉 시스템",
+          "key_claims": ["단계별케어", "맞춤시술", "살롱전용"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true,
+          "expertise_keywords": ["클리닉", "단계별", "맞춤"]
+        },
+        "염색약": {
+          "category": "시술제품/염색/전문 염색약",
+          "marketing_approach": "professional",
+          "description": "프로페셔널 살롱 염색약",
+          "key_claims": ["트렌드컬러", "지속력", "손상최소화"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true,
+          "expertise_keywords": ["염색", "컬러", "조색비"]
+        },
+        "펌제": {
+          "category": "시술제품/펌/전문 펌제",
+          "marketing_approach": "professional",
+          "description": "프로페셔널 펌 약제 시스템",
+          "key_claims": ["펌지속력", "손상방지", "다양한모질"],
+          "ideal_influencer": "Expert",
+          "requires_certification": true,
+          "expertise_keywords": ["펌", "웨이브", "시술"]
+        },
+        "스타일링": {
+          "category": "헤어케어/스타일링/프로페셔널 스타일링",
+          "marketing_approach": "professional",
+          "description": "살롱 전문 스타일링 제품",
+          "key_claims": ["프로급홀드", "자연스러움", "전문가픽"],
+          "ideal_influencer": "Expert"
+        }
+      }
     },
     "롱테이크": {
       "brand_name": "롱테이크",
       "brand_name_en": "Longtake",
-      "slogan": "Sustainable fragrance brand",
-      "tagline": "Sustainable fragrance brand",
-      "core_values": ["지속가능", "향수", "친환경", "클린", "감성"],
-      "brand_philosophy": "지속가능한 방식으로 만든 감성적인 향기",
-      "target_keywords": ["향수", "지속가능", "친환경", "퍼퓸", "향기"],
-      "aesthetic_style": "Minimal",
-      "product_categories": ["향수", "디퓨저"],
+      "slogan": "자연의 깊은 숲에서 영감을 받은 지속가능한 향",
+      "tagline": "감각적인 우디향으로 일상을 채우다",
+      "core_values": [
+        "지속가능성",
+        "자연친화적",
+        "고효능",
+        "감성",
+        "편안함",
+        "오래 지속됨"
+      ],
+      "brand_philosophy": "롱테이크는 자연에서 영감을 받아 지속가능한 라이프 스타일을 제공합니다. 깊은 숲의 감성을 담아 사람들의 일상에 편안함을 더하는 것을 목표로 합니다.",
+      "target_keywords": [
+        "감성향",
+        "지속가능 브랜드",
+        "우디향",
+        "라이프 스타일",
+        "자연",
+        "고효능"
+      ],
+      "aesthetic_style": "Natural",
       "price_tier": "Premium",
-      "age_target": "25-40대",
-      "category": "Fragrance"
+      "age_target": "20대 후반에서 40대 초반",
+      "category": "Lifestyle",
+      "detail_url": "https://www.apgroup.com/int/ko/brands/longtake.html",
+      "expertise_level": "low",
+      "expertise_focus": "감성과 라이프스타일 중심",
+      "product_lines": {
+        "헤어 퍼퓸": {
+          "category": "라이프스타일/향수/헤어 퍼퓸",
+          "marketing_approach": "consumer",
+          "description": "은은한 헤어 향수",
+          "key_claims": ["지속력", "자연향", "우디"],
+          "ideal_influencer": "Trendsetter"
+        },
+        "디퓨저": {
+          "category": "라이프스타일/향수/홈 프래그런스",
+          "marketing_approach": "consumer",
+          "description": "공간을 채우는 자연 향기",
+          "key_claims": ["공간향", "지속가능", "인테리어"],
+          "ideal_influencer": "Trendsetter"
+        },
+        "샴푸": {
+          "category": "헤어케어/샴푸/일반 샴푸",
+          "marketing_approach": "consumer",
+          "description": "향기로운 데일리 샴푸",
+          "key_claims": ["좋은향", "부드러움", "자연유래"],
+          "ideal_influencer": "Trendsetter"
+        }
+      }
     }
   },
-  "hair_brands": ["려", "미쟝센", "라보에이치", "아모스프로페셔널", "아윤채", "롱테이크"],
-  "categories": {
-    "Hair Care": ["려", "미쟝센", "라보에이치", "아모스프로페셔널", "아윤채", "롱테이크"]
-  },
+  "hair_brands": [
+    "려",
+    "미쟝센",
+    "라보에이치",
+    "아윤채",
+    "아모스 프로페셔널",
+    "롱테이크"
+  ],
   "metadata": {
-    "source": "아모레퍼시픽 공식 사이트 (https://www.apgroup.com/int/ko/brands/brands.html)",
-    "last_updated": "2025-12-27",
+    "source": "https://www.apgroup.com/int/ko/brands/brands.html#Hair",
+    "last_updated": "2025-12-28T02:00:00.000000",
     "total_brands": 6,
-    "version": "2.1"
+    "llm_structured": true
   }
 }

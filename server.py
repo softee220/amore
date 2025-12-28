@@ -2,9 +2,14 @@
 AI 헤어 인플루언서 큐레이션 에이전트 - FastAPI 서버
 ==================================================
 
-실행: python server.py
-종료: Ctrl+C
+파이프라인:
+1. 크롤링: 브랜드 데이터 (LLM 구조화)
+2. 처리: FIS 측정, 분류, 이미지 분석
+3. 벡터화: 브랜드/인플루언서 벡터맵 생성
+4. 매칭: 코사인 유사도 × FIS
+5. LLM 분석: 자연어 입력 처리
 
+실행: python server.py
 API 문서: http://localhost:8000/docs
 """
 
@@ -22,7 +27,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
 
 from api.routes import router, init_routes
-from services.chatbot import ChatBot
 
 
 # ============== 설정 ==============
@@ -68,12 +72,9 @@ static_path = os.path.join(BASE_DIR, "static")
 if os.path.exists(static_path):
     app.mount("/static", StaticFiles(directory=static_path), name="static")
 
-# 데이터 및 서비스 초기화
+# 데이터 및 라우터 초기화
 INFLUENCERS, BRAND_DB = load_data()
-chatbot = ChatBot(BRAND_DB, INFLUENCERS)
-
-# 라우터 초기화 및 등록
-init_routes(chatbot, INFLUENCERS, BRAND_DB)
+init_routes(BRAND_DB, INFLUENCERS)
 app.include_router(router, prefix="/api")
 
 
