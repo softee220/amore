@@ -244,7 +244,7 @@ pip install -r requirements.txt
 
 # 환경변수 설정
 cp .env.example .env
-# .env 파일에 OPENAI_API_KEY 설정
+# .env 파일에 환경변수 설정
 
 # 실행
 python server.py
