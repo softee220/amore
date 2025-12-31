@@ -384,9 +384,9 @@ sequenceDiagram
 
 ```bash
 # .env 파일
-OPENAI_API_KEY=sk-...              # OpenAI API 키 (필수)
-INSTAGRAM_ACCESS_TOKEN=...         # Instagram Graph API (선택)
-INSTAGRAM_BUSINESS_ACCOUNT_ID=...  # Instagram 비즈니스 계정 ID (선택)
+OPENAI_API_KEY=sk-...                # OpenAI API 키
+INSTAGRAM_ACCESS_TOKEN=...           # Instagram Graph API 액세스 토큰
+INSTAGRAM_BUSINESS_ACCOUNT_ID=...    # Instagram 비즈니스 계정 ID
 ```
 
 ## Instagram Graph API 정책 준수
@@ -434,7 +434,12 @@ INSTAGRAM_BUSINESS_ACCOUNT_ID=...  # Instagram 비즈니스 계정 ID (선택)
 | 개인정보 보호 | ✓ | 공개 프로필 정보만 수집 |
 
 > 본 시스템의 인플루언서 마케팅 분석은 Meta가 명시적으로 승인한 비즈니스 사용 사례에 해당한다.
-> "Brands use it for analytics, influencer vetting, campaign reporting" - Meta Developer Documentation
+> "Brands use it for analytics, influencer vetting, campaign reporting"
+
+**참고 링크:**
+- [Instagram Graph API 공식 문서](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api)
+- [Business Discovery API](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery)
+- [Hashtag Search API](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search)
 
 ## 참고 문헌
 
@@ -449,6 +454,3 @@ INSTAGRAM_BUSINESS_ACCOUNT_ID=...  # Instagram 비즈니스 계정 ID (선택)
 | 7 | Iglewicz & Hoaglin (1993) | How to Detect and Handle Outliers | FIS - Modified Z-score |
 | 8 | Dietterich (2000) | Ensemble Methods in Machine Learning | 분류 - Soft Voting |
 
-## 라이선스
-
-MIT License
