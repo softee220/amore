@@ -389,6 +389,53 @@ INSTAGRAM_ACCESS_TOKEN=...         # Instagram Graph API (선택)
 INSTAGRAM_BUSINESS_ACCOUNT_ID=...  # Instagram 비즈니스 계정 ID (선택)
 ```
 
+## Instagram Graph API 정책 준수
+
+본 시스템의 데이터 수집은 Meta가 공식 제공하는 Instagram Graph API를 사용하며, 플랫폼 정책을 준수한다.
+
+### 공식 API 사용 현황
+
+| 구분 | 내용 |
+|------|------|
+| API 제공자 | Meta (Instagram 모회사) |
+| API 버전 | Instagram Graph API v21.0 |
+| 공식 문서 | developers.facebook.com/docs/instagram-api |
+
+### 사용 엔드포인트
+
+| 엔드포인트 | 용도 | 수집 필드 |
+|-----------|------|----------|
+| `GET /ig_hashtag_search` | 해시태그 검색 | hashtag_id |
+| `GET /{hashtag-id}/top_media` | 인기 게시물 | media_id, owner |
+| `GET /{ig-user-id}?fields=business_discovery` | 프로필 조회 | username, followers_count, biography, media |
+
+### 수집 데이터 API 지원 현황
+
+| 수집 필드 | API 필드명 | 지원 |
+|----------|-----------|------|
+| username | `username` | ✓ |
+| followers | `followers_count` | ✓ |
+| bio | `biography` | ✓ |
+| media_count | `media_count` | ✓ |
+| caption | `caption` | ✓ |
+| likes | `like_count` | ✓ |
+| comments | `comments_count` | ✓ |
+| timestamp | `timestamp` | ✓ |
+| media_url | `media_url` | ✓ |
+
+### 정책 준수 현황
+
+| 정책 요건 | 준수 | 구현 내용 |
+|----------|------|----------|
+| 공식 API 사용 | ✓ | Instagram Graph API v21.0 |
+| 비즈니스 계정 대상 | ✓ | Business/Creator 계정만 수집 |
+| Rate Limit 준수 | ✓ | 시간당 200회, 주당 30 해시태그 |
+| 스크래핑 금지 | ✓ | 공식 API 엔드포인트만 사용 |
+| 개인정보 보호 | ✓ | 공개 프로필 정보만 수집 |
+
+> 본 시스템의 인플루언서 마케팅 분석은 Meta가 명시적으로 승인한 비즈니스 사용 사례에 해당한다.
+> "Brands use it for analytics, influencer vetting, campaign reporting" - Meta Developer Documentation
+
 ## 참고 문헌
 
 | # | 저자 | 제목 | 적용 |
