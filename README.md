@@ -39,9 +39,9 @@ flowchart TB
     end
 
     subgraph API["🌐 API Layer"]
-        REC[/api/recommend]
-        INF[/api/influencers]
-        BRD[/api/brands]
+        REC["/api/recommend"]
+        INF["/api/influencers"]
+        BRD["/api/brands"]
     end
 
     subgraph Output["📤 Output"]
