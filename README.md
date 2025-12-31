@@ -258,6 +258,34 @@ python server.py
 - 서버: http://localhost:8000
 - API 문서: http://localhost:8000/docs
 
+## 데이터 수집 모드
+
+### 현재 상태: 샘플 데이터 기반 MVP
+
+현재 Instagram Graph API 액세스 토큰 발급이 불가하여, **샘플 데이터 기반 MVP**로 구성되어 있습니다.
+
+```
+data/
+├── influencers_raw.json    # 크롤링 원본 데이터 (300명)
+└── influencers_data.json   # 분석 완료 데이터 (300명)
+```
+
+### 실제 운영 시: Instagram Graph API 연동
+
+API 토큰 발급 후 `.env`에 설정하면 실시간 데이터 수집이 가능합니다.
+
+```bash
+# .env 파일에 설정
+INSTAGRAM_ACCESS_TOKEN=your_access_token
+INSTAGRAM_BUSINESS_ACCOUNT_ID=your_business_account_id
+```
+
+**동작 흐름:**
+1. 해시태그 검색 (미용사, 헤어디자이너, ootd 등)
+2. 상위 게시물에서 작성자 추출
+3. Business Discovery API로 프로필/게시물 수집
+4. `data/influencers_raw.json` 자동 생성 → Processor에서 분석
+
 ## 프로젝트 구조
 
 ```mermaid

@@ -58,6 +58,3 @@ htmlcov/
 
 # ChromaDB (RAG 벡터 저장소)
 data/influencer_rag/
-
-# Raw 크롤링 데이터 (처리 전)
-data/influencers_raw.json
