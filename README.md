@@ -464,9 +464,10 @@ INSTAGRAM_BUSINESS_ACCOUNT_ID=...    # Instagram 비즈니스 계정 ID
 > 본 시스템의 인플루언서 마케팅 분석은 Meta가 명시적으로 승인한 비즈니스 사용 사례에 해당한다.
 > "Brands use it for analytics, influencer vetting, campaign reporting"
 
-**참고 링크:**
-- [Instagram Graph API 공식 문서](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api)
-- [Business Discovery API](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery)
+**Meta 공식 문서:**
+- [Instagram Graph API 공식 문서](https://developers.facebook.com/docs/instagram/)
+- [Business Discovery API](https://developers.facebook.com/docs/instagram-api/guides/business-discovery)
+- [IG User Business Discovery Reference](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery)
 - [Hashtag Search API](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search)
 
 ## 참고 문헌
