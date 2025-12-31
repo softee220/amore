@@ -466,7 +466,8 @@ INSTAGRAM_BUSINESS_ACCOUNT_ID=...    # Instagram 비즈니스 계정 ID
 
 **Meta 공식 문서:**
 - [Instagram Graph API 공식 문서](https://developers.facebook.com/docs/instagram/)
-- [Business Discovery API](https://developers.facebook.com/docs/instagram-api/guides/business-discovery)
+- [Instagram Platform Overview](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api)
+- [Business Discovery API Guide](https://developers.facebook.com/docs/instagram-api/guides/business-discovery)
 - [IG User Business Discovery Reference](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/business_discovery)
 - [Hashtag Search API](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search)
 
